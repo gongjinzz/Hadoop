@@ -1,0 +1,11 @@
+<configuration>
+
+    <property>
+        <name>dfs.defaultFs</name>
+        <value>hdfs://mini1:9000</value>
+    </property>
+    <property>
+        <name>fs.replication</name>
+        <value>3</value>
+    </property>
+</configuration>

@@ -1,0 +1,624 @@
+2019-08-17 15:52:54,412  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 15:52:54,440  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 16:00:38,898  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 16:00:38,918  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:35:55,692  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:35:55,716  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:37:08,976  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:37:08,997  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:37:09,338  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local992619573_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:16)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:40:02,756  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:40:02,777  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:40:03,109  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1770106538_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:16)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:45:13,951  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:45:13,972  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:45:14,432  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local594311156_0001
+java.lang.Exception: java.io.IOException: Illegal partition for {"movie" (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for {"movie" (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:16)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:46:23,934  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:46:23,954  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:46:24,367  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1112621196_0001
+java.lang.Exception: java.io.IOException: Illegal partition for {"movie" (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for {"movie" (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:17)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:48:31,953  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:48:31,974  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:48:32,306  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local470633540_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:17)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:49:36,673  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:49:36,693  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:49:37,025  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local172679687_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:17)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:52:48,000  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:52:48,020  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:52:48,323  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1562253212_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:17)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:53:24,471  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:53:24,493  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:53:24,806  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1237470441_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:17)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:55:03,314  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:55:03,334  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 17:55:03,644  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local792874076_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 136455 (4)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1082)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:18)
+	at com.qf.bigdata.phoneProvince.AMap.map(AMap.java:10)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 17:56:10,419  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 17:56:10,438  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 18:08:45,453  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 18:08:45,474  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 18:11:39,586  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 18:11:39,606  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 18:11:40,163  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1368729183_0001
+java.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.WritableComparator.compare(WritableComparator.java:157)
+	at org.apache.hadoop.mapreduce.task.ReduceContextImpl.nextKeyValue(ReduceContextImpl.java:158)
+	at org.apache.hadoop.mapreduce.task.ReduceContextImpl.nextKey(ReduceContextImpl.java:121)
+	at org.apache.hadoop.mapreduce.lib.reduce.WrappedReducer$Context.nextKey(WrappedReducer.java:302)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:170)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 18:13:15,944  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 18:13:15,968  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 18:13:16,534  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1509525966_0001
+java.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.WritableComparator.compare(WritableComparator.java:157)
+	at org.apache.hadoop.mapreduce.task.ReduceContextImpl.nextKeyValue(ReduceContextImpl.java:158)
+	at org.apache.hadoop.mapreduce.task.ReduceContextImpl.nextKey(ReduceContextImpl.java:121)
+	at org.apache.hadoop.mapreduce.lib.reduce.WrappedReducer$Context.nextKey(WrappedReducer.java:302)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:170)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 18:14:12,796  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 18:14:12,816  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 18:17:27,778  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 18:17:27,797  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-17 18:19:26,410  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-17 18:19:26,431  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 17:56:38,949  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-27 17:56:38,973  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 17:56:39,520  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1193916052_0001
+java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-27 17:58:07,376  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-27 17:58:07,396  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 17:58:07,819  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1219006137_0001
+java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-27 18:00:08,050  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-27 18:00:08,073  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 18:00:08,497  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local289755210_0001
+java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-27 18:01:04,231  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-27 18:01:04,255  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 18:01:04,674  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2046990580_0001
+java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-27 18:02:30,344  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-27 18:02:30,367  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 18:02:30,795  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local860290766_0001
+java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-27 18:03:47,984  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-27 18:03:48,007  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 18:03:48,459  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1965998718_0001
+java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-27 18:05:14,695  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-27 18:05:14,717  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-27 18:05:15,076  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local617715656_0001
+java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-28 21:19:05,087  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:19:27,910  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:19:28,900  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:19:28,919  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:19:32,933  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-hadoop-compat-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998372367\hbase-hadoop-compat-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:32,933  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372367\hbase-hadoop-compat-1.2.1.jar <- D:\JavaProject/hbase-hadoop-compat-1.2.1.jar
+2019-08-28 21:19:32,964  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\zookeeper-3.4.6.jar \tmp\hadoop-Jimmy\mapred\local\1566998372368\zookeeper-3.4.6.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:32,964  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372368\zookeeper-3.4.6.jar <- D:\JavaProject/zookeeper-3.4.6.jar
+2019-08-28 21:19:32,994  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-common-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998372369\hbase-common-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:32,994  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372369\hbase-common-1.2.1.jar <- D:\JavaProject/hbase-common-1.2.1.jar
+2019-08-28 21:19:33,025  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-protocol-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998372370\hbase-protocol-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,026  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372370\hbase-protocol-1.2.1.jar <- D:\JavaProject/hbase-protocol-1.2.1.jar
+2019-08-28 21:19:33,058  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\htrace-core-3.1.0-incubating.jar \tmp\hadoop-Jimmy\mapred\local\1566998372371\htrace-core-3.1.0-incubating.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,058  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372371\htrace-core-3.1.0-incubating.jar <- D:\JavaProject/htrace-core-3.1.0-incubating.jar
+2019-08-28 21:19:33,089  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hadoop-common-2.7.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998372372\hadoop-common-2.7.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,089  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372372\hadoop-common-2.7.1.jar <- D:\JavaProject/hadoop-common-2.7.1.jar
+2019-08-28 21:19:33,123  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\metrics-core-2.2.0.jar \tmp\hadoop-Jimmy\mapred\local\1566998372373\metrics-core-2.2.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,123  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372373\metrics-core-2.2.0.jar <- D:\JavaProject/metrics-core-2.2.0.jar
+2019-08-28 21:19:33,157  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-server-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998372374\hbase-server-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,157  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372374\hbase-server-1.2.1.jar <- D:\JavaProject/hbase-server-1.2.1.jar
+2019-08-28 21:19:33,439  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\protobuf-java-2.5.0.jar \tmp\hadoop-Jimmy\mapred\local\1566998372375\protobuf-java-2.5.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,440  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372375\protobuf-java-2.5.0.jar <- D:\JavaProject/protobuf-java-2.5.0.jar
+2019-08-28 21:19:33,472  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hadoop-mapreduce-client-core-2.7.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998372376\hadoop-mapreduce-client-core-2.7.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,472  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372376\hadoop-mapreduce-client-core-2.7.1.jar <- D:\JavaProject/hadoop-mapreduce-client-core-2.7.1.jar
+2019-08-28 21:19:33,503  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-client-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998372377\hbase-client-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,503  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372377\hbase-client-1.2.1.jar <- D:\JavaProject/hbase-client-1.2.1.jar
+2019-08-28 21:19:33,535  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\guava-11.0.2.jar \tmp\hadoop-Jimmy\mapred\local\1566998372378\guava-11.0.2.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,535  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372378\guava-11.0.2.jar <- D:\JavaProject/guava-11.0.2.jar
+2019-08-28 21:19:33,566  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\netty-all-4.0.23.Final.jar \tmp\hadoop-Jimmy\mapred\local\1566998372379\netty-all-4.0.23.Final.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:19:33,566  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998372379\netty-all-4.0.23.Final.jar <- D:\JavaProject/netty-all-4.0.23.Final.jar
+2019-08-28 21:21:37,047  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:21:57,911  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:22:45,885  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:22:46,863  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:22:46,882  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:22:50,861  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-hadoop-compat-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998570301\hbase-hadoop-compat-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:50,861  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570301\hbase-hadoop-compat-1.2.1.jar <- D:\JavaProject/hbase-hadoop-compat-1.2.1.jar
+2019-08-28 21:22:50,891  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\zookeeper-3.4.6.jar \tmp\hadoop-Jimmy\mapred\local\1566998570302\zookeeper-3.4.6.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:50,891  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570302\zookeeper-3.4.6.jar <- D:\JavaProject/zookeeper-3.4.6.jar
+2019-08-28 21:22:50,922  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-common-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998570303\hbase-common-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:50,922  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570303\hbase-common-1.2.1.jar <- D:\JavaProject/hbase-common-1.2.1.jar
+2019-08-28 21:22:50,951  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-protocol-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998570304\hbase-protocol-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:50,951  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570304\hbase-protocol-1.2.1.jar <- D:\JavaProject/hbase-protocol-1.2.1.jar
+2019-08-28 21:22:50,981  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\htrace-core-3.1.0-incubating.jar \tmp\hadoop-Jimmy\mapred\local\1566998570305\htrace-core-3.1.0-incubating.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:50,981  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570305\htrace-core-3.1.0-incubating.jar <- D:\JavaProject/htrace-core-3.1.0-incubating.jar
+2019-08-28 21:22:51,012  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hadoop-common-2.7.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998570306\hadoop-common-2.7.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,012  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570306\hadoop-common-2.7.1.jar <- D:\JavaProject/hadoop-common-2.7.1.jar
+2019-08-28 21:22:51,044  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\metrics-core-2.2.0.jar \tmp\hadoop-Jimmy\mapred\local\1566998570307\metrics-core-2.2.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,044  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570307\metrics-core-2.2.0.jar <- D:\JavaProject/metrics-core-2.2.0.jar
+2019-08-28 21:22:51,078  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-server-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998570308\hbase-server-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,078  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570308\hbase-server-1.2.1.jar <- D:\JavaProject/hbase-server-1.2.1.jar
+2019-08-28 21:22:51,382  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\protobuf-java-2.5.0.jar \tmp\hadoop-Jimmy\mapred\local\1566998570309\protobuf-java-2.5.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,382  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570309\protobuf-java-2.5.0.jar <- D:\JavaProject/protobuf-java-2.5.0.jar
+2019-08-28 21:22:51,414  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hadoop-mapreduce-client-core-2.7.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998570310\hadoop-mapreduce-client-core-2.7.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,414  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570310\hadoop-mapreduce-client-core-2.7.1.jar <- D:\JavaProject/hadoop-mapreduce-client-core-2.7.1.jar
+2019-08-28 21:22:51,445  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-client-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1566998570311\hbase-client-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,445  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570311\hbase-client-1.2.1.jar <- D:\JavaProject/hbase-client-1.2.1.jar
+2019-08-28 21:22:51,475  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\guava-11.0.2.jar \tmp\hadoop-Jimmy\mapred\local\1566998570312\guava-11.0.2.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,475  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570312\guava-11.0.2.jar <- D:\JavaProject/guava-11.0.2.jar
+2019-08-28 21:22:51,506  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\netty-all-4.0.23.Final.jar \tmp\hadoop-Jimmy\mapred\local\1566998570313\netty-all-4.0.23.Final.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:22:51,506  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1566998570313\netty-all-4.0.23.Final.jar <- D:\JavaProject/netty-all-4.0.23.Final.jar
+2019-08-28 21:44:04,047  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:45:17,719  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:45:18,516  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:45:18,535  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:47:00,014  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:47:00,829  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:47:00,851  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:48:59,191  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:49:00,005  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:49:00,025  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:49:14,293  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:49:15,118  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:49:15,136  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:49:45,826  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:49:46,630  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:49:46,648  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:50:30,360  WARN [org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil] - The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.
+2019-08-28 21:50:31,413  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-08-28 21:50:31,429  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-08-28 21:50:32,644  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-hadoop-compat-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1567000232096\hbase-hadoop-compat-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,644  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232096\hbase-hadoop-compat-1.2.1.jar <- D:\JavaProject/hbase-hadoop-compat-1.2.1.jar
+2019-08-28 21:50:32,675  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\zookeeper-3.4.6.jar \tmp\hadoop-Jimmy\mapred\local\1567000232097\zookeeper-3.4.6.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,675  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232097\zookeeper-3.4.6.jar <- D:\JavaProject/zookeeper-3.4.6.jar
+2019-08-28 21:50:32,706  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-common-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1567000232098\hbase-common-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,706  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232098\hbase-common-1.2.1.jar <- D:\JavaProject/hbase-common-1.2.1.jar
+2019-08-28 21:50:32,736  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-protocol-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1567000232099\hbase-protocol-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,737  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232099\hbase-protocol-1.2.1.jar <- D:\JavaProject/hbase-protocol-1.2.1.jar
+2019-08-28 21:50:32,766  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\htrace-core-3.1.0-incubating.jar \tmp\hadoop-Jimmy\mapred\local\1567000232100\htrace-core-3.1.0-incubating.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,767  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232100\htrace-core-3.1.0-incubating.jar <- D:\JavaProject/htrace-core-3.1.0-incubating.jar
+2019-08-28 21:50:32,797  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hadoop-common-2.7.1.jar \tmp\hadoop-Jimmy\mapred\local\1567000232101\hadoop-common-2.7.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,797  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232101\hadoop-common-2.7.1.jar <- D:\JavaProject/hadoop-common-2.7.1.jar
+2019-08-28 21:50:32,829  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\metrics-core-2.2.0.jar \tmp\hadoop-Jimmy\mapred\local\1567000232102\metrics-core-2.2.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,829  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232102\metrics-core-2.2.0.jar <- D:\JavaProject/metrics-core-2.2.0.jar
+2019-08-28 21:50:32,862  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-server-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1567000232103\hbase-server-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:32,862  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232103\hbase-server-1.2.1.jar <- D:\JavaProject/hbase-server-1.2.1.jar
+2019-08-28 21:50:33,162  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\protobuf-java-2.5.0.jar \tmp\hadoop-Jimmy\mapred\local\1567000232104\protobuf-java-2.5.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:33,162  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232104\protobuf-java-2.5.0.jar <- D:\JavaProject/protobuf-java-2.5.0.jar
+2019-08-28 21:50:33,193  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hadoop-mapreduce-client-core-2.7.1.jar \tmp\hadoop-Jimmy\mapred\local\1567000232105\hadoop-mapreduce-client-core-2.7.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:33,193  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232105\hadoop-mapreduce-client-core-2.7.1.jar <- D:\JavaProject/hadoop-mapreduce-client-core-2.7.1.jar
+2019-08-28 21:50:33,224  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\hbase-client-1.2.1.jar \tmp\hadoop-Jimmy\mapred\local\1567000232106\hbase-client-1.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:33,225  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232106\hbase-client-1.2.1.jar <- D:\JavaProject/hbase-client-1.2.1.jar
+2019-08-28 21:50:33,256  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\guava-11.0.2.jar \tmp\hadoop-Jimmy\mapred\local\1567000232107\guava-11.0.2.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:33,256  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232107\guava-11.0.2.jar <- D:\JavaProject/guava-11.0.2.jar
+2019-08-28 21:50:33,287  WARN [org.apache.hadoop.fs.FileUtil] - Command 'D:\software\hadoop-2.7.1\bin\winutils.exe symlink D:\JavaProject\netty-all-4.0.23.Final.jar \tmp\hadoop-Jimmy\mapred\local\1567000232108\netty-all-4.0.23.Final.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2019-08-28 21:50:33,287  WARN [org.apache.hadoop.mapred.LocalDistributedCacheManager] - Failed to create symlink: \tmp\hadoop-Jimmy\mapred\local\1567000232108\netty-all-4.0.23.Final.jar <- D:\JavaProject/netty-all-4.0.23.Final.jar

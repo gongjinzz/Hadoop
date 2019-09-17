@@ -1,0 +1,444 @@
+[druid] 2019-08-27 17:56:37,974 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 17:56:37,976 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 17:56:38,949 [main           ] WARN  .mapreduce.JobResourceUploader {1} - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+   [druid] 2019-08-27 17:56:38,973 [main           ] WARN  .mapreduce.JobResourceUploader {1} - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+   [druid] 2019-08-27 17:56:39,036 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2019-08-27 17:56:39,068 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - number of splits:2
+   [druid] 2019-08-27 17:56:39,154 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - Submitting tokens for job: job_local1193916052_0001
+   [druid] 2019-08-27 17:56:39,244 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - The url to track the job: http://localhost:8080/
+   [druid] 2019-08-27 17:56:39,245 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Running job: job_local1193916052_0001
+   [druid] 2019-08-27 17:56:39,246 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2019-08-27 17:56:39,250 [Thread-3       ] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 17:56:39,252 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2019-08-27 17:56:39,283 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2019-08-27 17:56:39,283 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1193916052_0001_m_000000_0
+   [druid] 2019-08-27 17:56:39,300 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 17:56:39,305 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 17:56:39,339 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@44f46cbe
+   [druid] 2019-08-27 17:56:39,343 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:0+33554432
+   [druid] 2019-08-27 17:56:39,388 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 17:56:39,388 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 17:56:39,388 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 17:56:39,388 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 17:56:39,388 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 17:56:39,391 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 17:56:39,399 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 17:56:39,419 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1193916052_0001_m_000001_0
+   [druid] 2019-08-27 17:56:39,420 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 17:56:39,420 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 17:56:39,454 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@30502bb5
+   [druid] 2019-08-27 17:56:39,456 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:33554432+32048203
+   [druid] 2019-08-27 17:56:39,503 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 17:56:39,503 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 17:56:39,503 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 17:56:39,503 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 17:56:39,503 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 17:56:39,504 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 17:56:39,508 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 17:56:39,519 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - map task executor complete.
+   [druid] 2019-08-27 17:56:39,520 [Thread-3       ] WARN  e.hadoop.mapred.LocalJobRunner {1} - job_local1193916052_0001
+   java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[druid] 2019-08-27 17:56:40,246 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local1193916052_0001 running in uber mode : false
+   [druid] 2019-08-27 17:56:40,251 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} -  map 0% reduce 0%
+   [druid] 2019-08-27 17:56:40,255 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local1193916052_0001 failed with state FAILED due to: NA
+   [druid] 2019-08-27 17:56:40,267 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Counters: 0
+   [druid] 2019-08-27 17:57:41,468 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 17:57:41,469 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 17:58:06,698 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 17:58:06,699 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 17:58:07,376 [main           ] WARN  .mapreduce.JobResourceUploader {1} - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+   [druid] 2019-08-27 17:58:07,396 [main           ] WARN  .mapreduce.JobResourceUploader {1} - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+   [druid] 2019-08-27 17:58:07,441 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2019-08-27 17:58:07,462 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - number of splits:2
+   [druid] 2019-08-27 17:58:07,513 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - Submitting tokens for job: job_local1219006137_0001
+   [druid] 2019-08-27 17:58:07,593 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - The url to track the job: http://localhost:8080/
+   [druid] 2019-08-27 17:58:07,594 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Running job: job_local1219006137_0001
+   [druid] 2019-08-27 17:58:07,594 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2019-08-27 17:58:07,597 [Thread-3       ] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 17:58:07,598 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2019-08-27 17:58:07,623 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2019-08-27 17:58:07,623 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1219006137_0001_m_000000_0
+   [druid] 2019-08-27 17:58:07,637 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 17:58:07,640 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 17:58:07,671 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@79db500
+   [druid] 2019-08-27 17:58:07,674 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:0+33554432
+   [druid] 2019-08-27 17:58:07,712 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 17:58:07,713 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 17:58:07,713 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 17:58:07,713 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 17:58:07,713 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 17:58:07,715 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 17:58:07,717 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 17:58:07,736 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1219006137_0001_m_000001_0
+   [druid] 2019-08-27 17:58:07,737 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 17:58:07,737 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 17:58:07,769 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2667c437
+   [druid] 2019-08-27 17:58:07,771 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:33554432+32048203
+   [druid] 2019-08-27 17:58:07,801 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 17:58:07,802 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 17:58:07,802 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 17:58:07,802 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 17:58:07,802 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 17:58:07,802 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 17:58:07,805 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 17:58:07,817 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - map task executor complete.
+   [druid] 2019-08-27 17:58:07,819 [Thread-3       ] WARN  e.hadoop.mapred.LocalJobRunner {1} - job_local1219006137_0001
+   java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[druid] 2019-08-27 17:58:08,595 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local1219006137_0001 running in uber mode : false
+   [druid] 2019-08-27 17:58:08,596 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} -  map 0% reduce 0%
+   [druid] 2019-08-27 17:58:08,598 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local1219006137_0001 failed with state FAILED due to: NA
+   [druid] 2019-08-27 17:58:08,601 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Counters: 0
+   [druid] 2019-08-27 17:59:53,095 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 17:59:53,096 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 18:00:07,374 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 18:00:07,375 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 18:00:08,050 [main           ] WARN  .mapreduce.JobResourceUploader {1} - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+   [druid] 2019-08-27 18:00:08,073 [main           ] WARN  .mapreduce.JobResourceUploader {1} - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+   [druid] 2019-08-27 18:00:08,117 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2019-08-27 18:00:08,139 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - number of splits:2
+   [druid] 2019-08-27 18:00:08,189 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - Submitting tokens for job: job_local289755210_0001
+   [druid] 2019-08-27 18:00:08,275 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - The url to track the job: http://localhost:8080/
+   [druid] 2019-08-27 18:00:08,275 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Running job: job_local289755210_0001
+   [druid] 2019-08-27 18:00:08,276 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2019-08-27 18:00:08,279 [Thread-3       ] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:00:08,280 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2019-08-27 18:00:08,305 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2019-08-27 18:00:08,305 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local289755210_0001_m_000000_0
+   [druid] 2019-08-27 18:00:08,319 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:00:08,322 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:00:08,353 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@528b9200
+   [druid] 2019-08-27 18:00:08,356 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:0+33554432
+   [druid] 2019-08-27 18:00:08,394 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:00:08,395 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:00:08,395 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:00:08,395 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:00:08,395 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:00:08,397 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:00:08,399 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:00:08,413 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local289755210_0001_m_000001_0
+   [druid] 2019-08-27 18:00:08,413 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:00:08,414 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:00:08,447 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@725efdd7
+   [druid] 2019-08-27 18:00:08,448 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:33554432+32048203
+   [druid] 2019-08-27 18:00:08,479 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:00:08,479 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:00:08,479 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:00:08,480 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:00:08,480 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:00:08,480 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:00:08,482 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:00:08,495 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - map task executor complete.
+   [druid] 2019-08-27 18:00:08,497 [Thread-3       ] WARN  e.hadoop.mapred.LocalJobRunner {1} - job_local289755210_0001
+   java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[druid] 2019-08-27 18:00:09,276 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local289755210_0001 running in uber mode : false
+   [druid] 2019-08-27 18:00:09,279 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} -  map 0% reduce 0%
+   [druid] 2019-08-27 18:00:09,284 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local289755210_0001 failed with state FAILED due to: NA
+   [druid] 2019-08-27 18:00:09,295 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Counters: 0
+   [druid] 2019-08-27 18:01:03,556 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 18:01:03,557 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 18:01:04,231 [main           ] WARN  .mapreduce.JobResourceUploader {1} - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+   [druid] 2019-08-27 18:01:04,255 [main           ] WARN  .mapreduce.JobResourceUploader {1} - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+   [druid] 2019-08-27 18:01:04,298 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2019-08-27 18:01:04,318 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - number of splits:2
+   [druid] 2019-08-27 18:01:04,371 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - Submitting tokens for job: job_local2046990580_0001
+   [druid] 2019-08-27 18:01:04,456 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - The url to track the job: http://localhost:8080/
+   [druid] 2019-08-27 18:01:04,456 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Running job: job_local2046990580_0001
+   [druid] 2019-08-27 18:01:04,457 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2019-08-27 18:01:04,460 [Thread-3       ] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:01:04,461 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2019-08-27 18:01:04,486 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2019-08-27 18:01:04,487 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local2046990580_0001_m_000000_0
+   [druid] 2019-08-27 18:01:04,501 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:01:04,504 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:01:04,534 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@59c47fb6
+   [druid] 2019-08-27 18:01:04,538 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:0+33554432
+   [druid] 2019-08-27 18:01:04,577 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:01:04,577 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:01:04,577 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:01:04,577 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:01:04,577 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:01:04,579 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:01:04,581 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:01:04,595 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local2046990580_0001_m_000001_0
+   [druid] 2019-08-27 18:01:04,595 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:01:04,596 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:01:04,627 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@fe4b7aa
+   [druid] 2019-08-27 18:01:04,628 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:33554432+32048203
+   [druid] 2019-08-27 18:01:04,659 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:01:04,659 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:01:04,659 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:01:04,659 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:01:04,659 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:01:04,659 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:01:04,661 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:01:04,672 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - map task executor complete.
+   [druid] 2019-08-27 18:01:04,674 [Thread-3       ] WARN  e.hadoop.mapred.LocalJobRunner {1} - job_local2046990580_0001
+   java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[druid] 2019-08-27 18:01:05,457 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local2046990580_0001 running in uber mode : false
+   [druid] 2019-08-27 18:01:05,458 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} -  map 0% reduce 0%
+   [druid] 2019-08-27 18:01:05,459 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local2046990580_0001 failed with state FAILED due to: NA
+   [druid] 2019-08-27 18:01:05,462 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Counters: 0
+   [druid] 2019-08-27 18:02:29,656 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 18:02:29,657 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 18:02:30,344 [main           ] WARN  .mapreduce.JobResourceUploader {1} - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+   [druid] 2019-08-27 18:02:30,367 [main           ] WARN  .mapreduce.JobResourceUploader {1} - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+   [druid] 2019-08-27 18:02:30,412 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2019-08-27 18:02:30,434 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - number of splits:2
+   [druid] 2019-08-27 18:02:30,486 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - Submitting tokens for job: job_local860290766_0001
+   [druid] 2019-08-27 18:02:30,573 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - The url to track the job: http://localhost:8080/
+   [druid] 2019-08-27 18:02:30,573 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Running job: job_local860290766_0001
+   [druid] 2019-08-27 18:02:30,574 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2019-08-27 18:02:30,577 [Thread-3       ] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:02:30,578 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2019-08-27 18:02:30,601 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2019-08-27 18:02:30,601 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local860290766_0001_m_000000_0
+   [druid] 2019-08-27 18:02:30,614 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:02:30,618 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:02:30,653 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@59c47fb6
+   [druid] 2019-08-27 18:02:30,656 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:0+33554432
+   [druid] 2019-08-27 18:02:30,695 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:02:30,695 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:02:30,695 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:02:30,695 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:02:30,695 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:02:30,697 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:02:30,700 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:02:30,713 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local860290766_0001_m_000001_0
+   [druid] 2019-08-27 18:02:30,713 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:02:30,714 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:02:30,746 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@fe4b7aa
+   [druid] 2019-08-27 18:02:30,748 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:33554432+32048203
+   [druid] 2019-08-27 18:02:30,779 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:02:30,779 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:02:30,779 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:02:30,779 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:02:30,779 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:02:30,779 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:02:30,782 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:02:30,793 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - map task executor complete.
+   [druid] 2019-08-27 18:02:30,795 [Thread-3       ] WARN  e.hadoop.mapred.LocalJobRunner {1} - job_local860290766_0001
+   java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[druid] 2019-08-27 18:02:31,574 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local860290766_0001 running in uber mode : false
+   [druid] 2019-08-27 18:02:31,577 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} -  map 0% reduce 0%
+   [druid] 2019-08-27 18:02:31,582 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local860290766_0001 failed with state FAILED due to: NA
+   [druid] 2019-08-27 18:02:31,593 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Counters: 0
+   [druid] 2019-08-27 18:03:47,292 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 18:03:47,293 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 18:03:47,984 [main           ] WARN  .mapreduce.JobResourceUploader {1} - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+   [druid] 2019-08-27 18:03:48,007 [main           ] WARN  .mapreduce.JobResourceUploader {1} - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+   [druid] 2019-08-27 18:03:48,055 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2019-08-27 18:03:48,076 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - number of splits:2
+   [druid] 2019-08-27 18:03:48,128 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - Submitting tokens for job: job_local1965998718_0001
+   [druid] 2019-08-27 18:03:48,214 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - The url to track the job: http://localhost:8080/
+   [druid] 2019-08-27 18:03:48,214 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Running job: job_local1965998718_0001
+   [druid] 2019-08-27 18:03:48,215 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2019-08-27 18:03:48,218 [Thread-3       ] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:03:48,219 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2019-08-27 18:03:48,244 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2019-08-27 18:03:48,244 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1965998718_0001_m_000000_0
+   [druid] 2019-08-27 18:03:48,257 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:03:48,261 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:03:48,293 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@528b9200
+   [druid] 2019-08-27 18:03:48,296 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:0+33554432
+   [druid] 2019-08-27 18:03:48,335 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:03:48,335 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:03:48,335 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:03:48,335 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:03:48,335 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:03:48,337 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:03:48,340 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:03:48,355 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1965998718_0001_m_000001_0
+   [druid] 2019-08-27 18:03:48,355 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:03:48,355 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:03:48,390 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@725efdd7
+   [druid] 2019-08-27 18:03:48,393 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/in/rating.json:33554432+32048203
+   [druid] 2019-08-27 18:03:48,443 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:03:48,444 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:03:48,444 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:03:48,444 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:03:48,444 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:03:48,444 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:03:48,447 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:03:48,458 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - map task executor complete.
+   [druid] 2019-08-27 18:03:48,459 [Thread-3       ] WARN  e.hadoop.mapred.LocalJobRunner {1} - job_local1965998718_0001
+   java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[druid] 2019-08-27 18:03:49,216 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local1965998718_0001 running in uber mode : false
+   [druid] 2019-08-27 18:03:49,217 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} -  map 0% reduce 0%
+   [druid] 2019-08-27 18:03:49,218 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local1965998718_0001 failed with state FAILED due to: NA
+   [druid] 2019-08-27 18:03:49,221 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Counters: 0
+   [druid] 2019-08-27 18:05:14,000 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2019-08-27 18:05:14,001 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2019-08-27 18:05:14,695 [main           ] WARN  .mapreduce.JobResourceUploader {1} - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+   [druid] 2019-08-27 18:05:14,717 [main           ] WARN  .mapreduce.JobResourceUploader {1} - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+   [druid] 2019-08-27 18:05:14,763 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2019-08-27 18:05:14,791 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - number of splits:1
+   [druid] 2019-08-27 18:05:14,844 [main           ] INFO  .hadoop.mapreduce.JobSubmitter {1} - Submitting tokens for job: job_local617715656_0001
+   [druid] 2019-08-27 18:05:14,931 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - The url to track the job: http://localhost:8080/
+   [druid] 2019-08-27 18:05:14,931 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Running job: job_local617715656_0001
+   [druid] 2019-08-27 18:05:14,932 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2019-08-27 18:05:14,935 [Thread-3       ] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:05:14,936 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2019-08-27 18:05:14,961 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2019-08-27 18:05:14,961 [ask Executor #0] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local617715656_0001_m_000000_0
+   [druid] 2019-08-27 18:05:14,974 [ask Executor #0] INFO  lib.output.FileOutputCommitter {1} - File Output Committer Algorithm version is 1
+   [druid] 2019-08-27 18:05:14,977 [ask Executor #0] INFO  rn.util.ProcfsBasedProcessTree {1} - ProcfsBasedProcessTree currently is supported only on Linux.
+   [druid] 2019-08-27 18:05:15,013 [ask Executor #0] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@59c47fb6
+   [druid] 2019-08-27 18:05:15,016 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: file:/D:/textin/2.txt:0+6794173
+   [druid] 2019-08-27 18:05:15,056 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - (EQUATOR) 0 kvi 26214396(104857584)
+   [druid] 2019-08-27 18:05:15,056 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - mapreduce.task.io.sort.mb: 100
+   [druid] 2019-08-27 18:05:15,056 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - soft limit at 83886080
+   [druid] 2019-08-27 18:05:15,056 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - bufstart = 0; bufvoid = 104857600
+   [druid] 2019-08-27 18:05:15,057 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - kvstart = 26214396; length = 6553600
+   [druid] 2019-08-27 18:05:15,058 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2019-08-27 18:05:15,061 [ask Executor #0] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2019-08-27 18:05:15,075 [Thread-3       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - map task executor complete.
+   [druid] 2019-08-27 18:05:15,076 [Thread-3       ] WARN  e.hadoop.mapred.LocalJobRunner {1} - job_local617715656_0001
+   java.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:715)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at org.apache.hadoop.mapreduce.Mapper.map(Mapper.java:125)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[druid] 2019-08-27 18:05:15,933 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local617715656_0001 running in uber mode : false
+   [druid] 2019-08-27 18:05:15,936 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} -  map 0% reduce 0%
+   [druid] 2019-08-27 18:05:15,939 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Job job_local617715656_0001 failed with state FAILED due to: NA
+   [druid] 2019-08-27 18:05:15,947 [main           ] INFO  rg.apache.hadoop.mapreduce.Job {1} - Counters: 0
+   [druid] 2019-08-27 22:01:11,615 [main           ] INFO  zookeeper.RecoverableZooKeeper {1} - Process identifier=hconnection-0x13e39c73 connecting to ZooKeeper ensemble=mini1:2181,mini2:2181,mini3:2181
+   [druid] 2019-08-27 22:01:16,128 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+   [druid] 2019-08-27 22:01:16,128 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:host.name=jimmypc
+   [druid] 2019-08-27 22:01:16,128 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:java.version=1.8.0_162
+   [druid] 2019-08-27 22:01:16,129 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:java.vendor=Oracle Corporation
+   [druid] 2019-08-27 22:01:16,129 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:java.home=D:\software\Java\jdk1.8.0_162\jre
+   [druid] 2019-08-27 22:01:16,129 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:java.class.path=D:\software\Java\jdk1.8.0_162\jre\lib\charsets.jar;D:\software\Java\jdk1.8.0_162\jre\lib\deploy.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\access-bridge-64.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\cldrdata.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\dnsns.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\jaccess.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\jfxrt.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\localedata.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\nashorn.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\sunec.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\sunjce_provider.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\sunmscapi.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\sunpkcs11.jar;D:\software\Java\jdk1.8.0_162\jre\lib\ext\zipfs.jar;D:\software\Java\jdk1.8.0_162\jre\lib\javaws.jar;D:\software\Java\jdk1.8.0_162\jre\lib\jce.jar;D:\software\Java\jdk1.8.0_162\jre\lib\jfr.jar;D:\software\Java\jdk1.8.0_162\jre\lib\jfxswt.jar;D:\software\Java\jdk1.8.0_162\jre\lib\jsse.jar;D:\software\Java\jdk1.8.0_162\jre\lib\management-agent.jar;D:\software\Java\jdk1.8.0_162\jre\lib\plugin.jar;D:\software\Java\jdk1.8.0_162\jre\lib\resources.jar;D:\software\Java\jdk1.8.0_162\jre\lib\rt.jar;D:\JavaProject\target\classes;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-common\2.7.1\hadoop-common-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-annotations\2.7.1\hadoop-annotations-2.7.1.jar;D:\software\Java\jdk1.8.0_162\lib\tools.jar;D:\software\apache-maven-3.3.9\repos\com\google\guava\guava\11.0.2\guava-11.0.2.jar;D:\software\apache-maven-3.3.9\repos\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;D:\software\apache-maven-3.3.9\repos\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;D:\software\apache-maven-3.3.9\repos\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;D:\software\apache-maven-3.3.9\repos\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\software\apache-maven-3.3.9\repos\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;D:\software\apache-maven-3.3.9\repos\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\software\apache-maven-3.3.9\repos\commons-net\commons-net\3.1\commons-net-3.1.jar;D:\software\apache-maven-3.3.9\repos\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\software\apache-maven-3.3.9\repos\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\software\apache-maven-3.3.9\repos\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;D:\software\apache-maven-3.3.9\repos\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;D:\software\apache-maven-3.3.9\repos\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;D:\software\apache-maven-3.3.9\repos\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;D:\software\apache-maven-3.3.9\repos\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;D:\software\apache-maven-3.3.9\repos\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;D:\software\apache-maven-3.3.9\repos\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;D:\software\apache-maven-3.3.9\repos\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;D:\software\apache-maven-3.3.9\repos\javax\activation\activation\1.1\activation-1.1.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\jackson\jackson-jaxrs\1.8.3\jackson-jaxrs-1.8.3.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\jackson\jackson-xc\1.8.3\jackson-xc-1.8.3.jar;D:\software\apache-maven-3.3.9\repos\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;D:\software\apache-maven-3.3.9\repos\asm\asm\3.1\asm-3.1.jar;D:\software\apache-maven-3.3.9\repos\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;D:\software\apache-maven-3.3.9\repos\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\software\apache-maven-3.3.9\repos\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;D:\software\apache-maven-3.3.9\repos\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\software\apache-maven-3.3.9\repos\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;D:\software\apache-maven-3.3.9\repos\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;D:\software\apache-maven-3.3.9\repos\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\software\apache-maven-3.3.9\repos\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;D:\software\apache-maven-3.3.9\repos\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;D:\software\apache-maven-3.3.9\repos\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;D:\software\apache-maven-3.3.9\repos\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;D:\software\apache-maven-3.3.9\repos\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;D:\software\apache-maven-3.3.9\repos\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;D:\software\apache-maven-3.3.9\repos\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;D:\software\apache-maven-3.3.9\repos\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;D:\software\apache-maven-3.3.9\repos\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;D:\software\apache-maven-3.3.9\repos\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;D:\software\apache-maven-3.3.9\repos\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-auth\2.7.1\hadoop-auth-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;D:\software\apache-maven-3.3.9\repos\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;D:\software\apache-maven-3.3.9\repos\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;D:\software\apache-maven-3.3.9\repos\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;D:\software\apache-maven-3.3.9\repos\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;D:\software\apache-maven-3.3.9\repos\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\curator\curator-recipes\2.7.1\curator-recipes-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;D:\software\apache-maven-3.3.9\repos\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;D:\software\apache-maven-3.3.9\repos\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\software\apache-maven-3.3.9\repos\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\software\apache-maven-3.3.9\repos\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;D:\software\apache-maven-3.3.9\repos\org\tukaani\xz\1.0\xz-1.0.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-client\2.7.1\hadoop-client-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-hdfs\2.7.1\hadoop-hdfs-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;D:\software\apache-maven-3.3.9\repos\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;D:\software\apache-maven-3.3.9\repos\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-mapreduce-client-app\2.7.1\hadoop-mapreduce-client-app-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-mapreduce-client-common\2.7.1\hadoop-mapreduce-client-common-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-yarn-client\2.7.1\hadoop-yarn-client-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-yarn-server-common\2.7.1\hadoop-yarn-server-common-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.7.1\hadoop-mapreduce-client-shuffle-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-yarn-api\2.7.1\hadoop-yarn-api-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-mapreduce-client-core\2.7.1\hadoop-mapreduce-client-core-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-yarn-common\2.7.1\hadoop-yarn-common-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.7.1\hadoop-mapreduce-client-jobclient-2.7.1.jar;D:\software\apache-maven-3.3.9\repos\junit\junit\4.13-beta-3\junit-4.13-beta-3.jar;D:\software\apache-maven-3.3.9\repos\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\hive-exec\1.2.1\hive-exec-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\hive-ant\1.2.1\hive-ant-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\velocity\velocity\1.5\velocity-1.5.jar;D:\software\apache-maven-3.3.9\repos\oro\oro\2.0.8\oro-2.0.8.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\hive-metastore\1.2.1\hive-metastore-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\hive-serde\1.2.1\hive-serde-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\hive-common\1.2.1\hive-common-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\joda-time\joda-time\2.5\joda-time-2.5.jar;D:\software\apache-maven-3.3.9\repos\org\json\json\20090211\json-20090211.jar;D:\software\apache-maven-3.3.9\repos\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;D:\software\apache-maven-3.3.9\repos\com\twitter\parquet-hadoop-bundle\1.6.0\parquet-hadoop-bundle-1.6.0.jar;D:\software\apache-maven-3.3.9\repos\com\jolbox\bonecp\0.8.0.RELEASE\bonecp-0.8.0.RELEASE.jar;D:\software\apache-maven-3.3.9\repos\org\apache\derby\derby\10.10.2.0\derby-10.10.2.0.jar;D:\software\apache-maven-3.3.9\repos\org\datanucleus\datanucleus-api-jdo\3.2.6\datanucleus-api-jdo-3.2.6.jar;D:\software\apache-maven-3.3.9\repos\org\datanucleus\datanucleus-rdbms\3.2.9\datanucleus-rdbms-3.2.9.jar;D:\software\apache-maven-3.3.9\repos\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;D:\software\apache-maven-3.3.9\repos\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\software\apache-maven-3.3.9\repos\javax\jdo\jdo-api\3.0.1\jdo-api-3.0.1.jar;D:\software\apache-maven-3.3.9\repos\javax\transaction\jta\1.1\jta-1.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\thrift\libthrift\0.9.2\libthrift-0.9.2.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\hive-shims\1.2.1\hive-shims-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\shims\hive-shims-common\1.2.1\hive-shims-common-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\shims\hive-shims-0.20S\1.2.1\hive-shims-0.20S-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\shims\hive-shims-0.23\1.2.1\hive-shims-0.23-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-yarn-server-resourcemanager\2.6.0\hadoop-yarn-server-resourcemanager-2.6.0.jar;D:\software\apache-maven-3.3.9\repos\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;D:\software\apache-maven-3.3.9\repos\com\google\inject\guice\3.0\guice-3.0.jar;D:\software\apache-maven-3.3.9\repos\javax\inject\javax.inject\1\javax.inject-1.jar;D:\software\apache-maven-3.3.9\repos\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\software\apache-maven-3.3.9\repos\com\sun\jersey\contribs\jersey-guice\1.9\jersey-guice-1.9.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-yarn-server-applicationhistoryservice\2.6.0\hadoop-yarn-server-applicationhistoryservice-2.6.0.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hadoop\hadoop-yarn-server-web-proxy\2.6.0\hadoop-yarn-server-web-proxy-2.6.0.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hive\shims\hive-shims-scheduler\1.2.1\hive-shims-scheduler-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\log4j\apache-log4j-extras\1.2.17\apache-log4j-extras-1.2.17.jar;D:\software\apache-maven-3.3.9\repos\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;D:\software\apache-maven-3.3.9\repos\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;D:\software\apache-maven-3.3.9\repos\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\software\apache-maven-3.3.9\repos\org\antlr\ST4\4.0.4\ST4-4.0.4.jar;D:\software\apache-maven-3.3.9\repos\org\apache\ant\ant\1.9.1\ant-1.9.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\ant\ant-launcher\1.9.1\ant-launcher-1.9.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\thrift\libfb303\0.9.2\libfb303-0.9.2.jar;D:\software\apache-maven-3.3.9\repos\org\apache\ivy\ivy\2.4.0\ivy-2.4.0.jar;D:\software\apache-maven-3.3.9\repos\org\apache\curator\curator-framework\2.6.0\curator-framework-2.6.0.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\groovy\groovy-all\2.1.6\groovy-all-2.1.6.jar;D:\software\apache-maven-3.3.9\repos\org\datanucleus\datanucleus-core\3.2.10\datanucleus-core-3.2.10.jar;D:\software\apache-maven-3.3.9\repos\org\apache\calcite\calcite-core\1.2.0-incubating\calcite-core-1.2.0-incubating.jar;D:\software\apache-maven-3.3.9\repos\org\apache\calcite\calcite-linq4j\1.2.0-incubating\calcite-linq4j-1.2.0-incubating.jar;D:\software\apache-maven-3.3.9\repos\net\hydromatic\eigenbase-properties\1.1.5\eigenbase-properties-1.1.5.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\janino\janino\2.7.6\janino-2.7.6.jar;D:\software\apache-maven-3.3.9\repos\org\codehaus\janino\commons-compiler\2.7.6\commons-compiler-2.7.6.jar;D:\software\apache-maven-3.3.9\repos\org\pentaho\pentaho-aggdesigner-algorithm\5.1.5-jhyde\pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar;D:\software\apache-maven-3.3.9\repos\org\apache\calcite\calcite-avatica\1.2.0-incubating\calcite-avatica-1.2.0-incubating.jar;D:\software\apache-maven-3.3.9\repos\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\software\apache-maven-3.3.9\repos\jline\jline\2.12\jline-2.12.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hbase\hbase-client\1.2.1\hbase-client-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hbase\hbase-annotations\1.2.1\hbase-annotations-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hbase\hbase-common\1.2.1\hbase-common-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\org\apache\hbase\hbase-protocol\1.2.1\hbase-protocol-1.2.1.jar;D:\software\apache-maven-3.3.9\repos\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;D:\software\apache-maven-3.3.9\repos\org\jruby\jcodings\jcodings\1.0.8\jcodings-1.0.8.jar;D:\software\apache-maven-3.3.9\repos\org\jruby\joni\joni\2.1.2\joni-2.1.2.jar;D:\software\apache-maven-3.3.9\repos\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;D:\software\apache-maven-3.3.9\repos\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;D:\software\IntelliJ IDEA Community Edition 2017.2.6\lib\idea_rt.jar
+   [druid] 2019-08-27 22:01:16,139 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:java.library.path=D:\software\Java\jdk1.8.0_162\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\software\Java\jdk1.8.0_162\bin;D:\software\Java\jdk1.8.0_162\jre\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;D:\MySoftware\bin;D:\software\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Python27;C:\Users\Jimmy\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files (x86)\Tencent\QQ\Bin;C:\Program Files (x86)\Tencent\WeChat;D:\software\hadoop-2.7.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\hadoop-2.7.1\bin;D:\Program Files (x86)\VMware\VMware Workstation;D:\mysf;D:\Good Programmer\EditPlus;D:\Typeeasy;C:\Users\Jimmy\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Jimmy\AppData\Local\Programs\Python\Python37\;C:\Users\Jimmy\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;;C:\Users\Jimmy\AppData\Local\Microsoft\WindowsApps;;.
+   [druid] 2019-08-27 22:01:16,140 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:java.io.tmpdir=C:\Users\Jimmy\AppData\Local\Temp\
+   [druid] 2019-08-27 22:01:16,140 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:java.compiler=<NA>
+   [druid] 2019-08-27 22:01:16,141 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:os.name=Windows 10
+   [druid] 2019-08-27 22:01:16,141 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:os.arch=amd64
+   [druid] 2019-08-27 22:01:16,141 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:os.version=10.0
+   [druid] 2019-08-27 22:01:16,142 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:user.name=Jimmy
+   [druid] 2019-08-27 22:01:16,142 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:user.home=C:\Users\Jimmy
+   [druid] 2019-08-27 22:01:16,143 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Client environment:user.dir=D:\JavaProject
+   [druid] 2019-08-27 22:01:16,145 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Initiating client connection, connectString=mini1:2181,mini2:2181,mini3:2181 sessionTimeout=180000 watcher=hconnection-0x13e39c730x0, quorum=mini1:2181,mini2:2181,mini3:2181, baseZNode=/hbase
+   [druid] 2019-08-27 22:01:16,468 [ead(mini1:2181)] INFO  rg.apache.zookeeper.ClientCnxn {1} - Opening socket connection to server mini1/192.168.91.3:2181. Will not attempt to authenticate using SASL (unknown error)
+   [druid] 2019-08-27 22:01:16,470 [ead(mini1:2181)] INFO  rg.apache.zookeeper.ClientCnxn {1} - Socket connection established to mini1/192.168.91.3:2181, initiating session
+   [druid] 2019-08-27 22:01:16,477 [ead(mini1:2181)] INFO  rg.apache.zookeeper.ClientCnxn {1} - Session establishment complete on server mini1/192.168.91.3:2181, sessionid = 0x16cd0d7e4ca0005, negotiated timeout = 40000
+   [druid] 2019-08-27 22:01:16,745 [main           ] INFO  ager$HConnectionImplementation {1} - Closing master protocol: MasterService
+   [druid] 2019-08-27 22:01:16,746 [main           ] INFO  ager$HConnectionImplementation {1} - Closing zookeeper sessionid=0x16cd0d7e4ca0005
+   [druid] 2019-08-27 22:01:16,747 [main           ] INFO  org.apache.zookeeper.ZooKeeper {1} - Session: 0x16cd0d7e4ca0005 closed
+   [druid] 2019-08-27 22:01:16,747 [ain-EventThread] INFO  rg.apache.zookeeper.ClientCnxn {1} - EventThread shut down
+   
